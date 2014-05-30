@@ -4,7 +4,7 @@ term: Collection
 status: published
 published: true
 comments: true
-category: definition
+categories: definition
 ---
 {% include JB/setup %}
 
