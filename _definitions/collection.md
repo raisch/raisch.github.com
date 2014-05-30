@@ -1,6 +1,7 @@
 ---
-layout: definition
+layout: page
 term: Collection
+title: Collection
 status: published
 published: true
 comments: true
