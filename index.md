@@ -14,5 +14,5 @@ comments: true
 ## Who?
 
 {% highlight ruby %}
-{{ site.collections | debug }}
+{{ site.definitions | debug }}
 {% endhighlight %}

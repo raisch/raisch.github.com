@@ -1,0 +1,37 @@
+{% comment %}<!--
+The defintions_list include is a listing helper for definitions.
+Usage:
+  1) assign the 'definitions_list' variable to a valid array of tags.
+  2) include JB/definitions_list
+  example:
+    <ul>
+  	  {% assign definitions_list = site.definitions %}
+  	  {% include JB/definitions_list %}
+  	</ul>
+  
+  Notes: 
+    Categories can be either a Hash of Category objects (hashes) or an Array of category-names (strings).
+    The encapsulating 'if' statement checks whether definitions_list is a Hash or Array.
+    site.categories is a Hash while page.categories is an array.
+    
+  This helper can be seen in use at: ../_layouts/default.html
+-->{% endcomment %}
+
+{% if site.JB.definitions_list.provider == "custom" %}
+  {% include custom/definitions_list %}
+{% else %}
+  {% if definitions_list.first[0] == null %}
+    {% for definition in definitions_list %}
+    	<li><a href="{{ BASE_PATH }}{{ site.JB.definitions_path }}#{{ definition }}-ref">
+    		{{ definition | join: "/" }} <span>{{ site.definitions[definition].size }}</span>
+    	</a></li>
+    {% endfor %}
+  {% else %}
+    {% for definition in definitions_list %}
+    	<li><a href="{{ BASE_PATH }}{{ site.JB.definitions_path }}#{{ definition[0] }}-ref">
+    		{{ definition[0] | join: "/" }} <span>{{ definition[1].size }}</span>
+    	</a></li>
+    {% endfor %}
+  {% endif %}
+{% endif %}
+{% assign definitions_list = nil %}
