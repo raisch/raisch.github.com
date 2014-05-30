@@ -12,3 +12,7 @@ comments: true
 ## How?
 
 ## Who?
+
+{% highlight json %}
+{{ site.collections | debug }}
+{% endhighlight %}
