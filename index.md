@@ -1,7 +1,7 @@
 ---
 layout: page
-title : Factotum
-tagline: Personal Data/Content Platform
+title : Projects
+comments: true
 ---
 {% include JB/setup %}
 
