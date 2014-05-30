@@ -6,8 +6,17 @@ group: navigation
 ---
 {% include JB/setup %}
 
+{% assign definitions_list = site.definitions %}
+
+## definitions_list
+
+{% highlight ruby %}
+
+{{ definitions_list | debug }}
+
+{% endhighlight %}
+
 <ul class="tag_box inline">
-  {% assign definitions_list = site.definitions %}
   {% include JB/definitions_list %}
 </ul>
 
