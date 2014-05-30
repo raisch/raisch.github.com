@@ -12,5 +12,3 @@ comments: true
 ## How?
 
 ## Who?
-
-{{ site | debug }}
