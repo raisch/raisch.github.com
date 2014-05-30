@@ -8,8 +8,8 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Factotum
-tagline: Personal Data/Content Platform
+title : raisch
+tagline:
 author :
   name : Rob Raisch
   email : raisch+factotum@gmail.com

@@ -1,6 +1,6 @@
 ---
 layout: page
-title : Home
+title : Factotum
 tagline: Personal Data/Content Platform
 ---
 {% include JB/setup %}
