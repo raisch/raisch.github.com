@@ -13,6 +13,6 @@ comments: true
 
 ## Who?
 
-{% highlight json %}
+{% highlight ruby %}
 {{ site.collections | debug }}
 {% endhighlight %}
