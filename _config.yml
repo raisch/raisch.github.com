@@ -9,13 +9,14 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : Factotum
-tagline: Personal Content/Data Platform
+tagline: Personal Data/Content Platform
 author :
   name : Rob Raisch
   email : raisch+factotum@gmail.com
   github : raisch
   twitter : robraisch
-#  feedburner : feedname
+  facebook : rraisch
+  linkedin : robert-raisch/27/849/455
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -80,7 +81,7 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : false
     disqus :
       short_name : jekyllbootstrap
     livefyre :
@@ -98,7 +99,7 @@ JB :
   # Set 'provider' to false to turn analytics off globally.
   #        
   analytics :
-    provider : google 
+    provider : false
     google : 
         tracking_id : 'UA-123-12'
     getclicky :
