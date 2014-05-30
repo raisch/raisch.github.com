@@ -134,4 +134,5 @@ JB :
 markdown: kramdown
 
 collections:
-- definitions
+  definitions:
+    output: true
