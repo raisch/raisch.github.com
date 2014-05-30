@@ -1,6 +1,6 @@
 ---
 layout: page
-title : Projects
+title : Home
 comments: true
 ---
 {% include JB/setup %}
@@ -12,3 +12,5 @@ comments: true
 ## How?
 
 ## Who?
+
+{{ site | debug }}
