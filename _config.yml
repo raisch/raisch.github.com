@@ -133,5 +133,4 @@ JB :
 markdown: kramdown
 
 collections:
-  definitions:
-    output: true
+- definitions
