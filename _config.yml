@@ -131,3 +131,7 @@ JB :
   
 # 20150530 RR - updated from maruku to kramdown per github instructions
 markdown: kramdown
+
+collections:
+  definitions:
+    output: true

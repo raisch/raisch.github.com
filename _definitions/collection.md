@@ -10,7 +10,9 @@ category: definition
 
 A Collection is a group of Items.
 
-## Categories List
+## Collections List
 
-{{ site.categories_list | debug }}
+{% highlight json %}
+{{ site.collections | debug }}
+{% endhighlight %}
 
