@@ -129,5 +129,5 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
-# updated from maruku to kramdown
+# 20150530 RR - updated from maruku to kramdown per github instructions
 markdown: kramdown
